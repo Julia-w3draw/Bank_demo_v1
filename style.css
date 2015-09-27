@@ -1,0 +1,907 @@
+
+@media only screen and (min-width: 600px) {
+	body{
+		margin: 0 0 0 0;
+		font-family:sans-serif;
+		height:100%;		 
+		background-image: url("IMG/BKG/bank3.jpg");
+		background-size:cover;
+	}
+
+	#_page_wp{
+		 width:98%;
+		 margin:0 auto 0 auto;
+	}
+	
+	#_top_spacer{
+		width: 100%;
+		height: 25px;
+		background: #ffffff;
+	}
+	
+	#_top_menu{
+		width: 100%;
+		overflow: auto;
+		background: #ffffff;
+	}
+	
+	#_top_menu_left{
+		display: inline-block;
+		float: left
+	}
+	
+	#_logo{
+		border-radius:6px;
+		margin:0 0 6px 0;
+	}
+	
+	#_left_home{
+		height: 60px
+	}
+	
+	#_top_menu_right{
+		display: inline-block;
+		float: right;
+	}
+	
+	._top_menu_right_b{		
+		padding: 10px;
+		width:35px;
+		height: 35px;
+	}
+	
+	#_mobile_menu{
+		margin-bottom: 5px;
+		width:60px;
+		height:60px;
+		display: none
+	}
+	
+	#_middle_menu{
+		width:100%;
+		background: #469CEB;
+	}
+	
+	#_middle_menu_center{
+		margin:0 auto;
+		display:table;
+		font-size: 0px;
+		color: #ffffff
+	}
+	
+	._middle_menu_b{
+		padding: 10px 0 10px 0;
+		display: inline-table;
+		width:250px;			
+		border: 1px solid #ffffff;
+		text-align: center;				
+	}
+	
+	._txt_b{
+		text-align: center;
+		font-size: 14px;
+	}
+	
+	#_content{
+		width:100%;
+		border-top:1px solid #ffffff;
+	}
+	
+	#_message_wp{
+		width: 90%;
+		margin:1% auto 0 auto;
+		background: rgba(0,0,0,.1);
+		color: #ffffff;
+		text-align: center;
+		padding: 7px 0 3px 0;
+	}
+	
+	#_title_1{
+		font-size: 1.7em;
+		line-height: 35px
+	}
+	
+	#_message{
+		 font-size: 1.1em;
+		 margin:3% 0 3% 0;
+	}	
+	
+	#_bottom_menu_1{
+		width:100%;
+		margin: 70px 0 0 0;
+	}
+	
+	#_bottom_menu_center_1{
+		 display: table;
+		 margin:0 auto;
+	}
+	#_video_b{
+		margin: 0 10px 0 0;
+		background: #F473A4;
+		display: table-cell;
+		vertical-align: middle;
+	}
+	#_chat{
+		margin: 0 0 0 10px;
+		display: table-cell;
+		vertical-align: middle;
+		cursor: pointer;
+	}
+	
+	#_chat:hover{
+		background: rgba(0,0,0,0.5)
+	}
+	
+	._bottom_menu_b{				
+		display: inline-table;
+		border: 3px solid #ffffff;
+		border-radius: 6px;
+		width:250px;				
+		height:70px;
+		color: #ffffff;
+		text-align: center;				
+	}
+	
+	#_bottom_menu_2{
+		 width:100%;
+		 position: relative;
+		 margin: 15px 0 0 0;
+	}
+	#_bottom_menu_center_2{
+		display: table;
+		margin:0 auto;
+	}
+	#visit_b{
+		margin: 0 10px 0 0;
+		display: table-cell;
+		vertical-align: middle;
+	}
+	
+/*	chat:*/
+	#_p_chat_window{
+		display: none;
+		width: 94%;
+		height:60%;		
+		background: #fAf8fA;
+		margin: 25px auto 0 auto;
+		border: 1px solid #BABAB8;
+		border-radius: 15px;
+		box-shadow: 1px 2px 4px #BAB8B8;		
+	}
+	
+/*	chat_top:*/
+	#_chat_top{
+		display: block;
+		width:100%;
+		height: 25%;
+		border-top-left-radius: 15px;
+		border-top-right-radius: 15px;
+		background: #4DB3A6;		
+	}	
+	#_chat_top_left{
+		height: 60px;		
+		display: inline-block;
+		margin: 0  25px 0 25px;
+		float:left;
+		position: relative;
+		top: 20%;
+		padding:0 10px;	
+	}
+	
+	#_chat_top_left img{
+		display: table-cell;
+		vertical-align: middle;
+		position: relative;
+		top: 25%;		
+	}
+	
+	#_chat_top_right{		
+		height: 60px;
+		border: 1px solid #F2EFEF;
+		border-radius: 10px;
+		display: inline-block;
+		margin: 0  25px 0 0;
+		float:right;
+		position: relative;
+		top: 20%;
+		padding:0 10px;	
+	}
+	
+	#_chat_top_right img{
+		display: table-cell;
+		vertical-align: middle;
+		position: relative;
+		top: 25%;		
+	}	
+	#_chat_top_right_img{
+		position: relative;
+		top: 25%;
+		left:5%;
+		width: 40%;
+		height: 50%;
+		background: #C4C2C2;
+		display: inline-block;
+		float: left;
+	}
+	#_chat_top_right_text{
+		position: relative;
+		top: 25%;
+		right:5%;
+		color: #ffffff;	
+		width: 40%;
+		height: 50%;
+		background: #aa4578;
+		display: inline-block;
+		float: right;
+		text-align: center;
+	}
+/*:chat_top*/
+
+/*_chat_middle:*/
+	#_chat_middle{
+		display: block;
+		width: 98%;
+		background: #ffffff;
+		border-right: 1px solid #B7B5B5;
+		box-shadow: 4px 0 6px -2px #ADABAB;
+	}
+	#_operator_section{		
+		width: 96%;
+		height: auto;
+		border-bottom: 1px  dotted #B7B5B5;
+		margin: 0 auto 0 auto;
+	}
+	#_operator_img_wp{
+		width: 5%;
+		height: 50%;		
+		display: inline-block;
+		float: left;
+		margin:3% 0 0 0;
+		clear: both;
+	}	
+	.img-circle {
+    border-radius: 50%;
+	}
+	
+	#_operator_center_section{
+		display: inline-block;
+		width: 80%;
+		height: auto;
+		margin: 1% auto 0 3%;
+		float: left;
+	}
+	#_operator_name{
+		display: block;
+		font-weight: 700;
+		line-height: 35px;
+	}
+	
+	#_operator_message{
+		margin: 0 0 10px 0;
+		color: #555;
+	}
+	
+	#_operator_right_section{
+		width: 10%;		
+		display: inline-block;
+		float: right;
+		margin: 1% 0 0 0;
+	}
+	
+	#_operator_clock{
+		display: inline-block;
+		float: left;		
+	}
+	
+	#_operator_clock img{
+		width: 15px;
+		height: 15px;
+		opacity: 0.6;		
+	}
+	
+	#_oprator_time{
+		display: inline-block;
+		width: 70%;
+		color:#666;
+		font-size: 0.7em;
+		margin: 0 0 0 5px;
+		text-align: center;
+	}
+	
+	#_client_section{
+		width: 96%;
+		height: auto;
+		border-bottom: 1px  dotted #B7B5B5;
+		margin: 10px auto 0 auto;		
+	}
+	
+	#_client_message{
+		color: #555;
+		line-height: 20px;
+		margin: 10px 0 0 0;
+	}
+	
+	#_client_left_section{
+		width:80%;
+		display: inline-block;
+		float: left;
+	}
+	
+	#_client_clock{
+		display: inline-block;
+		float: left;		
+	}
+	
+	#_client_clock img{
+		width: 15px;
+		height: 15px;
+		opacity: 0.6;		
+	}
+	
+	#_client_time{
+		display: inline-block;
+		width: 8%;
+		display: inline-block;
+		width: 10%;
+		color:#666;
+		font-size: 0.7em;
+		margin: 0 0 0 1px;
+		text-align: center;		
+	}
+	
+	#_client_right_section{
+		display: inline-block;
+		float: right;
+		width: 8%;
+		height: 100px;
+	}
+	
+	#_client_name{
+		display: inline-block;
+		float: left;
+		font-weight: 700;
+	}
+	#_client_img{
+		display: inline-block;
+		float: right;
+	}	
+/*:_chat_middle*/
+
+/*_chat_bottom:*/
+	#_chat_bottom{		
+		width: 98%;
+		margin: 3% 0 0 0;		
+	}
+	#_chat_bottom_left{
+		display: inline-block;
+		float: left;
+		width: 14%;
+		margin: 0 0 0 1%;
+		height: 100%;
+	}
+	#_upload_file{
+		display: inline-block;
+		float: left;
+		width: 40%;
+		height: 60px;
+		text-align: center;
+		margin: 0  10% 0 0;
+	}
+	
+	#_upload_img{
+		display: inline-block;
+		float: left;
+		width: 40%;
+		height: 50px;
+		text-align: center;
+	}
+
+	#_chat_bottom_center{
+		display: block;
+		float: left;
+		width: 80%;
+	}	
+
+	
+	form{
+		margin: 0 0 0 3%;
+		display: inline-block;
+		float: left;
+		width: 90%;	
+	}
+	
+	#_message_input{
+		width: 70%;
+		height: 50px;
+		border-top: 1px solid #cccccc;
+		border-bottom: 1px solid #cccccc;
+		font-size: 1.05em;
+		display: inline-block;
+		float: left;	
+	}
+
+	#_submit_b{
+		width: 28%;
+		height: 50px;
+		display: inline;
+		float: right;		
+		background:#E26199;
+		border:0 none;
+		cursor:pointer;		
+		border-radius: 5px;
+		font-size: 1.1em;
+		color: #ffffff;
+		margin:0 0 0 1%;
+	}
+/*:_chat_bottom*/
+/*	:chat*/
+	
+}
+
+
+
+
+
+
+@media only screen and (max-width: 599px) {	
+	body{		
+		margin: 0 0 0 0;
+		/*background-color:#fafafa;		*/
+		font-family:sans-serif;
+		height:100%;		 
+		background-image: url("IMG/BKG/bank3.jpg");
+		background-size:cover;
+		/*overflow: hidden;*/
+
+	}
+	
+	#_page_wp{
+		/*display: none;*/
+		 width:100%;
+		 margin: 0 auto 0 auto;		
+	}
+	
+	#_top_spacer{
+		width: 100%;
+		height: 25px;
+		background: #ffffff;
+	}
+	
+	#_top_menu{
+		width: 100%;
+		overflow: auto;
+		background: #ffffff;
+	}
+	
+	#_top_menu_left{
+		display: inline-block;
+		float: left
+	}
+	
+	#_logo{
+		border-radius:6px;
+		margin:0 0 6px 0;
+	}
+	
+	#_left_home{
+		height: 60px;
+		display: none;
+	}
+	
+	#_top_menu_right{
+		display: inline-block;
+		float: right
+	}
+	
+	._top_menu_right_b{
+		display: none;
+		padding: 10px;
+		width:35px;
+		height: 35px
+		
+	}
+	
+	#_mobile_menu{
+		display:block;		
+		width:50px;
+		height:50px;
+		margin-right: 10px;
+	}
+	
+	#_middle_menu{
+		width:100%;
+		background: #469CEB;
+	}
+	
+	#_middle_menu_center{
+		margin:0 auto;
+		display:table;
+		font-size: 0px;
+		color: #ffffff
+	}
+	
+	._middle_menu_b{
+		padding: 10px 0 10px 0;
+		display: inline-table;
+		width:80px;			
+		border: 1px solid #ffffff;
+		text-align: center;				
+	}
+	
+	._txt_b{
+		text-align: center;
+		font-size: 14px;
+	}
+
+	#_content{
+		width:100%;
+		border-top:1px solid #ffffff;
+	}
+	
+	#_message_wp{
+		width: 100%;
+		margin:2% auto 0 auto;
+		background: rgba(0,0,0,.1);
+		color: #ffffff;
+		text-align: center;
+		padding: 7px 0 3px 0;
+	}
+	
+	#_title_1{
+		font-size: 1.3em;
+		line-height: 30px
+	}
+	
+	#_message{
+		 font-size: 0.95em;
+		 margin:7% 0 3% 0;
+	}	
+	
+	#_bottom_menu_1{
+		width:100%;
+		margin: 15px 0 0 0;
+	}
+	
+	#_bottom_menu_center_1{
+		 width:100%;
+		display: block;
+		 margin:0 auto;
+	}
+	#_video_b{
+		width: 99%;
+		margin: 0 0 10px 0;
+		background: #F473A4;
+		display: block;
+		vertical-align: middle;
+	}
+	#_chat{
+		width: 99%;
+		margin: 0 0 0 0;
+		display: block;
+		vertical-align: middle;
+	}
+	#_chat:hover{
+		background: rgba(0,0,0,0.5)
+	}
+	
+	._bottom_menu_b{
+		width:100%;
+		display: block;
+		border: 3px solid #ffffff;
+		border-radius: 6px;
+		width:250px;				
+		height:70px;		
+		color: #ffffff;
+		text-align: center;
+		line-height: 70px;
+	}
+	
+	
+	#_bottom_menu_2{
+		 width:100%;
+		 position: relative;
+		 margin: 10px 0 0 0;
+	}
+	
+	#_bottom_menu_center_2{
+		display: block;
+		margin:0 auto;
+		width:100%;
+	}
+	
+	#visit_b{
+		width:99%;
+		margin: 0 0 0 0;
+		display:block;
+		vertical-align: middle;
+		
+	}
+		
+/*	chat:*/
+	#_p_chat_window{
+		display: none;
+		width: 94%;
+		height:80%;		
+		background: #fAf8fA;
+		margin: 25px auto 0 auto;
+		border: 1px solid #BABAB8;
+		border-radius: 15px;
+		box-shadow: 1px 2px 4px #BAB8B8;		
+	}	
+	#_chat_top{
+		display: block;
+		width:100%;
+		height: 15%;
+		border-top-left-radius: 15px;
+		border-top-right-radius: 15px;
+		background: #4DB3A6;		
+	}
+	
+	#_chat_top_left{
+		width: 30%;
+		height: 50px;		
+		display: inline-block;
+		margin: 0  1% 0 2%;
+		float:left;
+		position: relative;
+		top: 20%;
+		padding:0 2%;
+	
+	}
+	#_chat_top_left img{
+		width: 60%;
+		display: table-cell;
+		vertical-align: middle;
+		position: relative;
+		top: 25%;		
+	}
+	
+	
+	
+	#_chat_top_right{
+		width: 28%;
+		height: 50px;
+		border: 1px solid #F2EFEF;
+		border-radius: 10px;
+		display: inline-block;
+		margin: 0  25px 0 0;
+		float:right;
+		position: relative;
+		top: 20%;
+		padding:0 2%;
+	}
+	
+	#_chat_top_right img{
+		width: 100%;
+		display: table-cell;
+		vertical-align: middle;
+		position: relative;
+		top: 25%;		
+	}	
+	#_chat_top_right_img{
+		position: relative;
+		top: 25%;
+		left:5%;
+		width: 40%;
+		height: 50%;
+		background: #C4C2C2;
+		display: inline-block;
+		float: left;
+	}
+	#_chat_top_right_text{
+		position: relative;
+		top: 25%;
+		right:5%;
+		color: #ffffff;	
+		width: 40%;
+		height: 50%;
+		background: #aa4578;
+		display: inline-block;
+		float: right;
+		text-align: center;
+	}
+
+	#_chat_middle{
+		display: block;
+		width: 98%;
+		background: #ffffff;
+		border-right: 1px solid #B7B5B5;
+		box-shadow: 4px 0 6px -2px #ADABAB;
+	}
+	#_operator_section{		
+		width: 96%;
+		height: auto;
+		border-bottom: 1px  dotted #B7B5B5;
+		margin: 0 auto 0 auto;
+	}
+	#_operator_img_wp{
+		/*width: 5%;*/
+		/*height: 50%;		*/
+		/*display: inline-block;*/
+		float: left;
+		margin:3% 0 0 0;
+		/*clear: both;*/
+		
+	}	
+	.img-circle {
+    border-radius: 50%;
+	}
+	
+	#_operator_center_section{
+		/*display: inline-block;*/
+		/*width: 80%;*/
+		height: auto;
+		margin: 1% auto 0 3%;
+		/*float: left;*/
+	}
+	#_operator_name{
+		display: block;
+		font-weight: 700;
+		line-height: 35px;
+	}
+	
+	#_operator_message{
+		margin: 0 0 10px 0;
+		color: #555;
+	}
+	
+	#_operator_right_section{
+		
+		/*display: inline;*/
+		/*float: right;*/
+		margin: 1% 0 0 0;
+	}
+	
+	#_operator_clock{
+		display: inline-block;
+		float: left;		
+	}
+	
+	#_operator_clock img{
+		width: 15px;
+		height: 15px;
+		opacity: 0.6;		
+	}
+	
+	#_oprator_time{
+		display: inline-block;
+		float: left;		
+		color:#666;
+		font-size: 0.7em;
+		margin: 0 0 0 2%;
+		/*text-align: center;*/
+	}
+	
+	#_client_section{
+		width: 96%;
+		height: auto;
+		border-bottom: 1px  dotted #B7B5B5;
+		margin: 10px auto 0 auto;		
+	}
+	
+	#_client_message{
+		color: #555;
+		line-height: 20px;
+		margin: 10px 0 0 0;
+	}
+	
+	#_client_left_section{
+		width:85%;
+		display: inline-block;
+		float: left;
+	}
+	
+	#_client_clock{
+		display: inline-block;
+		float: left;		
+	}
+	
+	#_client_clock img{
+		width: 15px;
+		height: 15px;
+		opacity: 0.6;		
+	}
+	
+	#_client_time{
+		display: inline-block;
+		/*width: 20%;*/
+		color:#666;
+		font-size: 0.7em;
+		margin: 0 0 0 2%;
+		text-align: center;		
+	}
+	
+	#_client_right_section{
+		display: inline-block;
+		float: right;
+		width: 8%;
+		height: 100px;
+	}
+	
+	#_client_name{
+		display: inline-block;
+		float: left;
+		font-weight: 700;
+	}
+	#_client_img{
+		display: inline-block;
+		float: right;
+	}	
+
+	#_chat_bottom{		
+		width: 98%;
+		margin: 3% 0 0 0;		
+	}
+	#_chat_bottom_left{
+		/*display: inline-block;*/
+		/*float: left;*/
+		width: 80%;
+		margin: 0 auto ;
+		/*height: 100%;*/
+		/*background: #ff0000;*/
+		
+	}
+	#_upload_file{
+		display: inline-block;
+		float: left;
+		width: 30%;
+		height: 60px;
+		text-align: center;
+		margin: 0  20% 0 10%;
+	}
+	#_upload_file img{
+		width:40px;
+	}
+	
+	#_upload_img{
+		display: inline-block;
+		float: left;
+		width: 30%;
+		height: 50px;
+		/*text-align: center;*/
+	}
+	#_upload_img img{
+		width:40px;
+	}
+
+	#_chat_bottom_center{
+		display: block;
+		/*float: left;*/
+		width: 90%;
+		margin: 0 10%;
+	}	
+
+	
+	form{
+		margin: 0 10% ;
+		display: inline-block;
+		width: 90%;	
+	}
+	
+	#_message_input{
+		width: 70%;
+		height: 50px;
+		border: 1px solid #cccccc;
+		font-size: 0.8em;
+		display: inline-block;
+		float: left;	
+	}
+
+	#_submit_b{
+		background-image: url("IMG/ICONS/mail.png");
+		background-size:cover;		
+		width: 50px;
+		height: 50px;
+		display: inline;
+		/*float: right;		*/
+		/*background:#E26199;*/
+		border:0 none;
+		cursor:pointer;		
+		border-radius: 5px;
+		/*font-size: 1.1em;*/
+		color: rgba(0,0,0,0);
+		margin:0 0 0 2%;
+	}	
+/*	:chat*/
+	
+}
